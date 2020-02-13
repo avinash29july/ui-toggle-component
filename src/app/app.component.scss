@@ -1,0 +1,16 @@
+.boxes {
+    button {
+        cursor: pointer;
+        border-radius: 50px;
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        left: 47%;
+        top: 45%;
+        z-index: 2;
+        border: 1px solid #000;
+        &:hover {
+            opacity: .5;
+        }
+    }
+}
